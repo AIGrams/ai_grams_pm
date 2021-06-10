@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.8.1" />
-<title>AI Grams PM API documentation</title>
+<title>queries_manager API documentation</title>
 <meta name="description" content="" />
 <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
@@ -17,9 +17,52 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>AI GRAMS PM API</code></h1>
+<h1 class="title">Module <code>queries_manager</code></h1>
 </header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import requests
+import pandas as pd
 
+def get_forecasts(token, market, zone, starting_date=None, ending_date=None):
+
+        &#34;&#34;&#34;
+        A method to retrieve forecasts on different market&#39;s gates for a specific day.
+
+        Args:
+                token (string): private token to be used in order to retreive forecasts.
+                market (string): market&#39;s gate of interest (e.g. MI3).
+                zone (string): macrozone of interest (e.g. NORTH/SOUTH).
+                starting_date (string, optional): starting date (included into the output) for forecasts (%YYYY%MM%dd). If not specified the forecasts for the day ahead will be provided.
+                ending_date (string, optional): ending date (excluded from the output) for forecasts (%YYYY%MM%dd). If not specified the forecasts for the day ahead will be provided.
+
+        Examples:
+                get_forecasts(&#39;token&#39;,&#39;MI3&#39;, &#39;SOUTH&#39;, &#39;20210529&#39;, &#39;20210531&#39;) \n
+                get_forecasts(&#39;token&#39;,&#39;MI3&#39;, &#39;NORTH&#39;, &#39;20210529&#39;, &#39;20210531&#39;) \n
+                get_forecasts(&#39;token&#39;,&#39;MI3&#39;, &#39;SOUTH&#39;) \n
+                get_forecasts(&#39;token&#39;,&#39;MI3&#39;, &#39;NORTH&#39;)
+
+        &#34;&#34;&#34;
+
+        if (starting_date != None) and (ending_date != None):
+                url_string = str(&#39;https://aigrams.herokuapp.com/api/v1/resources/forecasts?token=&#39; + str(token) + &#39;&amp;starting_date=&#39; + str(starting_date) + &#39;&amp;ending_date=&#39; + str(ending_date) + &#39;&amp;market=&#39; + str(market) + &#39;&amp;zone=&#39; + str(zone))
+        else:
+                url_string = str(&#39;https://aigrams.herokuapp.com/api/v1/resources/forecasts?token=&#39; + str(token) + &#39;&amp;market=&#39; + str(market) + &#39;&amp;zone=&#39; + str(zone))
+
+        forecasts_request = requests.get(url_string)
+
+        try:
+                df = pd.read_json(forecasts_request.text)
+                return df
+        except:
+                return forecasts_request.text</code></pre>
+</details>
+</section>
+<section>
+</section>
 <section>
 </section>
 <section>
@@ -45,6 +88,8 @@
 </dl>
 <h2 id="examples">Examples</h2>
 <p>get_forecasts('token','MI3', 'SOUTH', '20210529', '20210531') </p>
+<p>get_forecasts('token','MI3', 'NORTH', '20210529', '20210531') </p>
+<p>get_forecasts('token','MI3', 'SOUTH') </p>
 <p>get_forecasts('token','MI3', 'NORTH')</p></div>
 <details class="source">
 <summary>
