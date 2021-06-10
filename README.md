@@ -4,25 +4,20 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/AIGrams/ai_grams_pm/logo/ai_grams_camel.png">
-    <img src="logo/ai_grams_camel.png" alt="Logo" width="160" height="175">
+    <img src="logo/ai_grams_camel.png" alt="Logo" width="180" height="220">
   </a>
 
   <h3 align="center">AI Grams PM project</h3>
 
   <p align="center">
-    <br />
     <a href="https://github.com/AIGrams/ai_grams_pm/doc/ai_grams_pm_doc.html"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
   </p>
 </p>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -53,5 +48,3 @@
 [stars-url]: https://github.com/AIGrams/ai_grams_pm/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AIGrams/ai_grams_pm.svg?style=for-the-badge
 [issues-url]: https://github.com/AIGrams/ai_grams_pm/issues
-[license-shield]: https://img.shields.io/github/license/AIGrams/ai_grams_pm.svg?style=for-the-badge
-[license-url]: https://github.com/AIGrams/ai_grams_pm/blob/main/LICENSE.txt
