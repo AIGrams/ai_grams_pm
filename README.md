@@ -35,11 +35,11 @@ AI Grams - aigrams.team@gmail.com
 Website - https://aigrams.herokuapp.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/AIGrams/ai_grams_pm.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/AIGrams/ai_grams_pm.svg?style=plastic
 [contributors-url]: https://github.com/AIGrams/ai_grams_pm/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AIGrams/ai_grams_pm.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/AIGrams/ai_grams_pm.svg?style=plastic
 [forks-url]: https://github.com/AIGrams/ai_grams_pm/network/members
-[stars-shield]: https://img.shields.io/github/stars/AIGrams/ai_grams_pm.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/AIGrams/ai_grams_pm.svg?style=plastic
 [stars-url]: https://github.com/AIGrams/ai_grams_pm/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AIGrams/ai_grams_pm.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/AIGrams/ai_grams_pm.svg?style=plastic
 [issues-url]: https://github.com/AIGrams/ai_grams_pm/issues
