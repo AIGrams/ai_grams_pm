@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/AIGrams/ai_grams_pm/logo/ai_grams_camel.png">
-    <img src="logo/ai_grams_camel.png" alt="Logo" width="120" height="150">
+    <img src="logo/ai_grams_camel.png" alt="Logo" width="160" height="175">
   </a>
 
   <h3 align="center">AI Grams PM project</h3>
