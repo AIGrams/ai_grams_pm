@@ -13,7 +13,7 @@
   <h3 align="center">AI Grams PM project</h3>
 
   <p align="center">
-    <a href="https://github.com/AIGrams/ai_grams_pm/docs/ai_grams_pm_doc.html"><strong>Explore the docs »</strong></a>
+    <a href="https://aigrams.github.io/ai_grams_pm/"><strong>Explore the docs »</strong></a>
   </p>
 </p>
 
@@ -27,15 +27,26 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+This package belongs to AI Grams, an Italian startup working in the field of European power markets. 
+
+<!-- GETTING STARTED -->
+## Getting Started
+In order to install ai_grams_pm package, please digit:
+
+```sh
+pip3 install ai_grams_pm
+```
+
+<!-- CONTACT -->
+## Contact
+AI Grams - aigrams.team@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/AIGrams/ai_grams_pm.svg?style=for-the-badge
