@@ -15,6 +15,8 @@ def get_forecasts(token, market, zone, starting_date=None, ending_date=None):
 
 	Examples:
 		get_forecasts('token','MI3', 'SOUTH', '20210529', '20210531') \n
+		get_forecasts('token','MI3', 'NORTH', '20210529', '20210531') \n
+		get_forecasts('token','MI3', 'SOUTH') \n
 		get_forecasts('token','MI3', 'NORTH')
 
 	"""
