@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a>
-    <img src="logo/ai_grams_camel.png" alt="Logo" width="280" height="320">
+    <img src="logo/ai_grams_camel.png" alt="Logo" width="280" height="360">
   </a>
 
   <h3 align="center">AI Grams PM Project</h3>
