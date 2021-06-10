@@ -13,7 +13,7 @@
   <h3 align="center">AI Grams PM project</h3>
 
   <p align="center">
-    <a href="https://github.com/AIGrams/ai_grams_pm/doc/ai_grams_pm_doc.html"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AIGrams/ai_grams_pm/docs/ai_grams_pm_doc.html"><strong>Explore the docs »</strong></a>
   </p>
 </p>
 
