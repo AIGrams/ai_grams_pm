@@ -25,7 +25,7 @@ This package belongs to AI Grams, an Italian startup working in the field of Eur
 In order to install ai_grams_pm package, please digit:
 
 ```sh
-pip3 install ai_grams_pm
+pip3 install ai-grams-pm
 ```
 
 <!-- CONTACT -->
