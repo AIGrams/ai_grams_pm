@@ -1,5 +1,4 @@
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -31,15 +30,13 @@ pip3 install ai_grams_pm
 
 <!-- CONTACT -->
 ## Contact
-AI Grams - aigrams.team@gmail.com
+AI Grams - aigrams.team@gmail.com<br/>
 Website - https://aigrams.herokuapp.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/AIGrams/ai_grams_pm.svg?style=plastic
-[contributors-url]: https://github.com/AIGrams/ai_grams_pm/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AIGrams/ai_grams_pm.svg?style=plastic
+[forks-shield]: https://img.shields.io/github/forks/AIGrams/ai_grams_pm.svg?style=flat
 [forks-url]: https://github.com/AIGrams/ai_grams_pm/network/members
-[stars-shield]: https://img.shields.io/github/stars/AIGrams/ai_grams_pm.svg?style=plastic
+[stars-shield]: https://img.shields.io/github/stars/AIGrams/ai_grams_pm.svg?style=flat
 [stars-url]: https://github.com/AIGrams/ai_grams_pm/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AIGrams/ai_grams_pm.svg?style=plastic
+[issues-shield]: https://img.shields.io/github/issues/AIGrams/ai_grams_pm.svg?style=flat
 [issues-url]: https://github.com/AIGrams/ai_grams_pm/issues
