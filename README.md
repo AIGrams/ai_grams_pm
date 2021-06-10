@@ -10,27 +10,12 @@
     <img src="logo/ai_grams_camel.png" alt="Logo" width="280" height="320">
   </a>
 
-  <h3 align="center">AI Grams</h3>
+  <h3 align="center">AI Grams PM Project</h3>
 
   <p align="center">
     <a href="https://aigrams.github.io/ai_grams_pm/"><strong>Explore the docs »</strong></a>
   </p>
 </p>
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
