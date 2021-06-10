@@ -5,12 +5,12 @@ with open('PyPi_README.md') as f:
 
 setup(
     name='ai_grams_pm',
-    version='0.0.3',    
+    version='0.0.4',    
     description='AI Grams\' API manager for PM',
     author='Antonio Briola',
     author_email='aigrams.team@gmail.com',
     url = 'https://github.com/AIGrams/ai_grams_pm',
-    download_url = 'https://github.com/AIGrams/ai_grams_pm/archive/v0.0.3.tar.gz',
+    download_url = 'https://github.com/AIGrams/ai_grams_pm/archive/v0.0.4.tar.gz',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
