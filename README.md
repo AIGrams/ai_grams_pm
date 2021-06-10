@@ -1,12 +1,13 @@
 <!-- PROJECT SHIELDS -->
 
+<p align="center">
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+</p>
 
 <!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <a href="https://github.com/AIGrams/ai_grams_pm/logo/ai_grams_camel.png">
     <img src="logo/ai_grams_camel.png" alt="Logo" width="180" height="220">
