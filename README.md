@@ -10,7 +10,7 @@
     <img src="logo/ai_grams_camel.png" alt="Logo" width="280" height="320">
   </a>
 
-  <h3 align="center">AI Grams PM project</h3>
+  <h3 align="center">AI Grams</h3>
 
   <p align="center">
     <a href="https://aigrams.github.io/ai_grams_pm/"><strong>Explore the docs »</strong></a>
@@ -46,7 +46,7 @@ pip3 install ai_grams_pm
 
 <!-- CONTACT -->
 ## Contact
-AI Grams - aigrams.team@gmail.com
+AI Grams - aigrams.team@gmail.com - https://aigrams.herokuapp.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/AIGrams/ai_grams_pm.svg?style=for-the-badge
