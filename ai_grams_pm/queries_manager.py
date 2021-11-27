@@ -8,16 +8,16 @@ def get_forecasts(token, market, zone, starting_date=None, ending_date=None):
 
 	Args:
 		token (string): private token to be used in order to retreive forecasts.
-		market (string): market's gate of interest (e.g. MI3).
+		market (string): market's gate of interest (e.g. MI-A2).
 		zone (string): macrozone of interest (e.g. NORTH/SOUTH).
 		starting_date (string, optional): starting date (included into the output) for forecasts (%YYYY%MM%dd). If not specified the forecasts for the day ahead will be provided.
 		ending_date (string, optional): ending date (excluded from the output) for forecasts (%YYYY%MM%dd). If not specified the forecasts for the day ahead will be provided.
 
 	Examples:
-		get_forecasts('token','MI3', 'SOUTH', '20210529', '20210531') \n
-		get_forecasts('token','MI3', 'NORTH', '20210529', '20210531') \n
-		get_forecasts('token','MI3', 'SOUTH') \n
-		get_forecasts('token','MI3', 'NORTH')
+		get_forecasts('token','MI-A2', 'SOUTH', '20210529', '20210531') \n
+		get_forecasts('token','MI-A2', 'NORTH', '20210529', '20210531') \n
+		get_forecasts('token','MI-A2', 'SOUTH') \n
+		get_forecasts('token','MI-A2', 'NORTH')
 
 	"""
 

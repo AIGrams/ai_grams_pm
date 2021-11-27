@@ -5,7 +5,7 @@ with open('PyPi_README.md') as f:
 
 setup(
     name='ai_grams_pm',
-    version='0.0.4',    
+    version='0.0.5',    
     description='AI Grams\' API manager for PM',
     author='Antonio Briola',
     author_email='aigrams.team@gmail.com',
