@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import time
 
 def get_forecasts(token, market, zone, starting_date=None, ending_date=None):
 
@@ -24,9 +25,16 @@ def get_forecasts(token, market, zone, starting_date=None, ending_date=None):
 	if (starting_date != None) and (ending_date != None):
 		url_string = str('https://aigrams.herokuapp.com/api/v1/resources/forecasts?token=' + str(token) + '&starting_date=' + str(starting_date) + '&ending_date=' + str(ending_date) + '&market=' + str(market) + '&zone=' + str(zone))
 	else:
-		url_string = str('https://aigrams.herokuapp.com/api/v1/resources/forecasts?token=' + str(token) + '&market=' + str(market) + '&zone=' + str(zone))
+		url_string = str('https://aigrams.herokuapp.com/api/v1/resources1/forecasts?token=' + str(token) + '&market=' + str(market) + '&zone=' + str(zone))
 
-	forecasts_request = requests.get(url_string)
+	forecasts_request = requests.get(url_string, timeout=5.0)
+	status_code = forecasts_request.status_code
+
+	if status_code != 200:
+		while status_code == 200:
+			time.sleep(3)
+			forecasts_request = requests.get(url_string, timeout=5.0)
+			status_code = forecasts_request.status_code
 
 	try:
 		df = pd.read_json(forecasts_request.text)
